@@ -1,0 +1,51 @@
+{
+  "name": "code-color-theme",
+  "displayName": "Color Theme",
+  "publisher": "ceciljacob",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "description": "This is a code editor theme with extensive syntax highlight and workbench color customization implemented.",
+  "icon": "Icon.png",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceciljacob/code-color-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ceciljacob/code-color-theme/issues"
+  },
+  "qna": "https://github.com/ceciljacob/code-color-theme/issues",
+  "contributes": {
+    "themes": [
+      {
+      "label": "Color Theme + Ochre Dark",
+      "uiTheme": "vs-dark",
+      "path": "./theme/theme-dark-ochre-color-theme.json"
+      },
+      {
+      "label": "Color Theme + Cyan Dark",
+      "uiTheme": "vs-dark",
+      "path": "./theme/theme-dark-cyan-color-theme.json"
+      }
+    ]
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "customization",
+    "professional"
+  ],
+  "galleryBanner": {
+    "color": "#0f141c",
+    "theme": "dark"
+  },
+  "author": {
+    "name": "Cecil Jacob"
+  }
+}

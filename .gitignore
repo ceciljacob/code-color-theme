@@ -1,0 +1,11 @@
+# Object
+*.vscodeignore
+
+
+# Folder
+.resource/**
+.vscode/**
+
+
+# Extension
+*.tmp
